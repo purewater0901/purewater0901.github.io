@@ -73,7 +73,7 @@ strong { font-weight: 600; }
 .social-links .social-icon { display: block; width: 28px; height: 28px; fill: currentColor; }
 .social-links a:hover { color: var(--green); background: var(--green-light); }
 .hero-aside { grid-area: portrait; align-self: center; }
-.profile-photo { margin: 0; }
+.profile-photo { width: 100%; max-width: 300px; margin: 0; justify-self: center; }
 .profile-photo img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 3px; }
 .profile-photo figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 3px 14px; margin-top: 13px; color: var(--muted); font-size: 11px; }
 .profile-photo figcaption strong { color: var(--green); font-size: 12px; }
@@ -179,7 +179,7 @@ strong { font-weight: 600; }
   .hero-role { font-size: 13px; margin-top: 22px; }
   .hero-intro { margin-top: 21px; font-size: 17px; max-width: 520px; }
   .hero-detail { font-size: 13px; }
-  .hero-aside { width: 100%; max-width: 420px; margin-top: 28px; }
+  .hero-aside { max-width: 220px; margin-top: 24px; justify-self: start; }
   .section-grid { grid-template-columns: 1fr; gap: 32px; }
   .section-space { padding-block: 56px; }
   .section-heading .eyebrow, .section-title-row .eyebrow { margin-bottom: 16px; }
