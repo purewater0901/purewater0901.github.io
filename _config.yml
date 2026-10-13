@@ -1,3 +1,11 @@
-theme: jekyll-theme-minimal
-title: Yutaka Shimizu homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Yutaka Shimizu
+description: >-
+  Ph.D. student in Mechanical Engineering at UC Berkeley, working on
+  reinforcement learning, motion planning, and control for robotics.
+url: "https://purewater0901.github.io"
+baseurl: ""
+lang: en
+author: Yutaka Shimizu
+email: purewater0901@gmail.com
+exclude:
+  - README.md
