@@ -21,17 +21,28 @@
     <div class="header-inner">
       <a class="wordmark" href="#about" aria-label="Yutaka Shimizu, home">YS<span class="wordmark-dot">.</span></a>
       <nav aria-label="Main navigation">
-        <a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#education">Education</a>
+        <a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#education">Education</a>
       </nav>
       <a class="header-cv" href="CV.pdf">View CV <span aria-hidden="true">↗</span></a>
     </div>
   </header>
   <main id="main">
     <section class="hero container" id="about" aria-labelledby="name">
-      <div class="hero-main">
+      <div class="hero-heading">
         <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Robotics · Learning · Control</p>
         <h1 id="name">Yutaka<br><span>Shimizu</span><span class="name-period">.</span></h1>
         <p class="hero-role">Ph.D. student · UC Berkeley</p>
+      </div>
+      <figure class="hero-aside profile-photo">
+        <img src="assets/images/yutaka-shimizu-icra-2026.jpeg"
+             width="4284" height="5712" fetchpriority="high" decoding="async"
+             alt="Yutaka Shimizu standing beside his Adaptive Linear Path Model-Based Diffusion poster at ICRA 2026.">
+        <figcaption>
+          <strong>Yutaka Shimizu</strong>
+          <span>ICRA 2026 · Poster presentation</span>
+        </figcaption>
+      </figure>
+      <div class="hero-main">
         <p class="hero-intro">I work on reinforcement learning, planning, and control for robots, with a focus on autonomous driving and intelligent decision-making.</p>
         <p class="hero-detail">At UC Berkeley, I am pursuing a Ph.D. in Mechanical Engineering, advised by <strong>Prof. Masayoshi Tomizuka</strong>.</p>
         <div class="hero-actions"><a class="button button-primary" href="#publications">Explore my research <span aria-hidden="true">↘</span></a><a class="text-link" href="mailto:purewater0901@gmail.com">Get in touch <span aria-hidden="true">↗</span></a></div>
@@ -52,46 +63,6 @@
             </svg>
           </a>
         </nav>
-      </div>
-      <div class="hero-aside">
-        <div class="research-visual" aria-hidden="true">
-          <div class="visual-heading"><span>FROM LEARNING TO ACTION</span><span>01 — 03</span></div>
-          <svg class="trajectory" viewBox="0 0 400 350" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#c2cbc2"/></pattern>
-              <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#28645a"/></marker>
-            </defs>
-            <rect x="25" y="25" width="350" height="300" fill="url(#grid)"/>
-            <circle cx="205" cy="171" r="68" stroke="#aebfb1" stroke-dasharray="3 6"/>
-            <circle cx="205" cy="171" r="43" fill="#d9e1d5"/>
-            <path d="M56 287C115 272 112 177 140 122C173 58 219 65 257 80C314 102 300 50 341 45" stroke="#b4c3b7" stroke-width="1.5"/>
-            <path d="M56 287C143 280 132 232 182 244C250 261 295 203 281 149C263 85 313 88 341 45" stroke="#b4c3b7" stroke-width="1.5"/>
-            <path d="M56 287C104 270 98 227 122 193C145 160 115 90 174 80C239 68 256 119 299 86L341 45" stroke="#28645a" stroke-width="3" marker-end="url(#arrow)"/>
-            <path d="m122 193 20-35" stroke="#a87342" stroke-width="2"/>
-            <circle cx="56" cy="287" r="7" fill="#f7f6f2" stroke="#28645a" stroke-width="2"/>
-            <circle cx="122" cy="193" r="8" fill="#28645a"/><circle cx="122" cy="193" r="16" stroke="#28645a" stroke-opacity=".25"/>
-            <circle cx="341" cy="45" r="15" stroke="#28645a" stroke-opacity=".35"/>
-            <text x="46" y="316" fill="#5c7167" font-size="13" font-family="Georgia, serif" font-style="italic">x₀</text>
-            <text x="93" y="187" fill="#173f3b" font-size="16" font-family="Georgia, serif" font-style="italic">xₜ</text>
-            <text x="147" y="155" fill="#916336" font-size="16" font-family="Georgia, serif" font-style="italic">uₜ</text>
-            <text x="305" y="29" fill="#5c7167" font-size="11" font-family="monospace">GOAL</text>
-          </svg>
-          <div class="visual-legend"><span><i></i>Learn</span><span><i></i>Plan</span><span><i></i>Control</span></div>
-        </div>
-        <div class="location-note"><span class="location-icon" aria-hidden="true">◎</span> Based in Berkeley, California <span aria-hidden="true">↗</span></div>
-      </div>
-    </section>
-    <section class="research-section" id="research" aria-labelledby="research-heading">
-      <div class="container section-grid">
-        <div class="section-heading"><p class="eyebrow">01 / Research</p><h2 id="research-heading">Learning.<br>Planning.<br>Acting.</h2></div>
-        <div class="research-content">
-          <p class="section-intro">My interests span learning-based methods and model-based approaches to decision-making, motion planning, and control.</p>
-          <div class="research-topics">
-            <article class="research-topic"><span class="topic-number">01</span><div><h3>Reinforcement learning</h3><p>Reinforcement learning, offline reinforcement learning, and learning for robotic decision-making.</p></div></article>
-            <article class="research-topic"><span class="topic-number">02</span><div><h3>Planning &amp; control</h3><p>Path and trajectory planning, optimal control, and optimization for autonomous systems.</p></div></article>
-            <article class="research-topic"><span class="topic-number">03</span><div><h3>Robotics &amp; autonomy</h3><p>Autonomous driving, robotics, and game-theoretic approaches to interaction.</p></div></article>
-          </div>
-        </div>
       </div>
     </section>
     <section class="publications-section container section-space" id="publications" aria-labelledby="publications-heading">
