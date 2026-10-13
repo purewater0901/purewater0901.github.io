@@ -41,15 +41,3 @@ if ('IntersectionObserver' in window) {
   }, { rootMargin: '-20% 0px -65% 0px' });
   document.querySelectorAll('main > section[id]').forEach((section) => observer.observe(section));
 }
-
-// Include collapsed experience when printing, then restore the reader's choice.
-const earlierExperience = document.querySelector('.earlier-experience');
-let wasExperienceOpen = false;
-window.addEventListener('beforeprint', () => {
-  if (!earlierExperience) return;
-  wasExperienceOpen = earlierExperience.open;
-  earlierExperience.open = true;
-});
-window.addEventListener('afterprint', () => {
-  if (earlierExperience) earlierExperience.open = wasExperienceOpen;
-});

@@ -32,6 +32,7 @@ After this setup, pushes to `master` update the website. See [GitHub’s guide t
 | `assets/css/style.css` | Colors, typography, layout, and mobile styles. |
 | `assets/js/main.js` | Publication filters and other page interactions. |
 | `assets/favicon.svg` | Icon displayed in the browser tab. |
+| `assets/icons/` | Social logo source SVGs and licenses. The SVG markup is also embedded in `index.html` so the logos can match each section’s colors. |
 | `CV.pdf` | Original CV available for viewing and download. |
 | `_config.yml` | Site information and Jekyll settings for GitHub Pages. |
 
